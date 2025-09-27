@@ -1,0 +1,5 @@
+name =input("录入学生姓名:")
+age = input("录入年龄是")
+gender = input("性别为:")
+grade = input("成绩为:")
+print(f'我的姓名是{name}，年龄是：{age},性别是{gender}，成绩是{grade}')

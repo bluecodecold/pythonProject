@@ -1,0 +1,5 @@
+price = input("商品单价为:")
+number = input("商品数量:")
+salary = input("收到的金额")
+money = float(salary) - int(number) * float(price)
+print(f"应该找回{money}元")
