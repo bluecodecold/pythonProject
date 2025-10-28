@@ -1,6 +1,6 @@
 import random
 score = 0
-for i in range(0, 11):
+for i in range(0, 10):
     number_one = random.randint(1, 10)
     number_two = random.randint(1, 10)
     answer = int(input(f" {number_one} + {number_two} 的答案为: "))
